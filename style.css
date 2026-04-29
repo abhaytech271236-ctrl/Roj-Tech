@@ -53,7 +53,17 @@
             margin: 0 auto;
             padding: 0 20px;
         }
+      /* Bootstrap container ko override karo */
+.hero .container {
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    padding-left: 20px; /* thoda gap */
+}
 
+/* sirf text box */
+.hero-text {
+    margin-left: 0 !important;
+}
         .section {
             padding: 80px 0;
         }
